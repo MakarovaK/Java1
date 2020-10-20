@@ -9,7 +9,9 @@ public class Main {
         }
         a.print();
         a.print(3);
+        System.out.println("razhmer spiska: "+a.size());
         a.remove(4);
+        System.out.println("razhmer spiska: "+a.size());
         a.print();
         a.remove(15);
         a.print();
