@@ -8,9 +8,11 @@ public class Main {
             a.pushEnd(i);
         }
         a.print();
+        a.print(3);
         a.remove(4);
         a.print();
         a.remove(15);
         a.print();
+
     }
 }

@@ -50,4 +50,17 @@ public class List {
         else
             tmp.next_ = tmp.next_.next_;
     }
+    public void print(int index){
+        Node tmp = header;
+        int i = 0;
+        while (tmp !=null && i != index){
+            tmp = tmp.next_;
+            i++;
+        }
+        if (tmp == null)
+            System.out.println("oshibka");
+        else
+            System.out.println(tmp.value_);
+    }
+
 }
